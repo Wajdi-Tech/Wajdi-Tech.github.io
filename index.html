@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>النظام الشمسي</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> >
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="sun.html">الشمس</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>      
+    <header class="container text-center mt-5">
+        <h1>مرحبا بكم في عالم النظام الشمسي</h1>
+        <p>تعرف على كواكب الشمس والمعلومات المثيرة عن النظام الشمسي</p>
+    </header>
+
+    <section class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-6 d-flex align-items-center">
+            <div>
+                <h3 class="mt-2">الشمس</h3>
+                <p>الشمس هي النجم المركزي للنظام الشمسي وهي المصدر الرئيسي للطاقة.</p>
+            </div>
+            </div>
+            <div class="col-md-6">
+                <img src="img/sun.jpg" alt="الشمس" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <div>
+                    <h3 class="mt-2">الأرض</h3>
+                    <p>كوكب الأرض هو الكوكب الثالث من الشمس وهو الكوكب الوحيد المعروف الذي يحتوي على حياة.</p>
+                </div>
+            </div>
+                <div class="col-md-6">
+                    <img src="img/earth.png" alt="الأرض" class="img-fluid rounded-circle">
+                </div>
+             <div class="col-md-6 d-flex align-items-center">
+                <div>
+                    <h3 class="mt-2">المشتري</h3>
+                    <p>المشتري هو أكبر كوكب في النظام الشمسي ويتألف بشكل أساسي من الغاز.</p>
+                </div>
+             </div>
+            <div class="col-md-6">
+                <img src="img/jupiter.jpg" alt="المشتري" class="img-fluid rounded-circle">
+            </div>    
+        </div>
+        <section class="container my-5">
+            <h2 class="text-center my-4">كواكب أخرى</h2>
+            <div id="solarCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/mercury.jpg" class="d-block w-100" alt="Mercure">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>كوكب عطارد</h5>
+                            <p>أقرب كوكب إلى الشمس وأصغر كواكب النظام الشمسي.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/venus.jpg" class="d-block w-100" alt="الزهرة">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>كوكب الزهرة</h5>
+                            <p>الكوكب الثاني من الشمس ويعتبر الكوكب الشقيق للأرض.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <button class="carousel-control-prev" type="button" data-bs-target="#solarCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">السابق</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#solarCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">التالي</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center bg-dark py-3">
+        <p>&copy; 2024 النظام الشمسي. جميع الحقوق محفوظة.</p>
+    </footer>   
+    <a href="sun.html" class="btn btn-warning">تعرف على الشمس</a>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

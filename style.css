@@ -1,0 +1,42 @@
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #f0ad4e;
+}
+.mb-4 {
+    margin-bottom: 2rem; /* ou ajustez selon vos besoins */
+}
+h3 {
+    font-size: 24px; /* Ajustez selon vos besoins */
+}
+
+p {
+    font-size: 16px;
+}
+
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+}
+
+
+footer {
+    background-color: #343a40; /* Couleur de fond du footer */
+    color: #ffffff;            /* Couleur du texte */
+    padding: 15px;             /* Espace interne pour respirer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;           /* Taille du texte dans le footer */
+    text-align: center; 
+} 
+.image-container {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    overflow: hidden;
+    display: inline-block;
+}
